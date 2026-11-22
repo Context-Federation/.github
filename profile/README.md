@@ -1,25 +1,27 @@
 # Context Federation
 
-**Your personal knowledge graph, queryable by any AI tool.**
+**Curated context in spaces, for every AI tool.**
 
-Context Federation is a structured, user-owned knowledge graph that works across all your AI tools. Not flat memory — structured knowledge where relationships have meaning.
-
-## The problem
-
-AI tools remember facts about you. They don't know how those facts connect. And the context you build in one tool stays locked inside it.
+Your rules, preferences, projects and decisions, organised in personal and shared spaces that you own, and handed to Claude, ChatGPT, Cursor and every other MCP tool at the start of each conversation. Curated context, not memory.
 
 ## How it works
 
-- **Knowledge graph** — entities (people, companies, projects, events) connected by meaningful relationships
-- **MCP server** — any MCP-compatible tool (Claude Code, Cursor, Windsurf) can query your graph
-- **Prompt generator** — for tools without MCP support, assemble context into a copy-pasteable prompt
-- **Local-first** — your data stays on your device
+1. **You curate.** Your AI tools propose what to remember. Facts and preferences are saved right away; rules wait for your approval before any agent follows them.
+2. **You organise.** Personal spaces are yours alone. Shared spaces (a team, a family, a project) have members with reader, editor or owner roles.
+3. **Every tool gets the same brief.** Connect a tool once over MCP, choose which spaces it may see, and it starts each conversation with the context that matters.
+4. **You can leave.** Export everything as one open JSON file, import it anywhere, or delete your account.
+
+## Projects
+
+| Repository | What it is | Licence |
+|---|---|---|
+| [specs](https://github.com/Context-Federation/specs) | The Context Federation spec: data model, MCP surface, conformance fixtures | CC BY 4.0 |
+| [core](https://github.com/Context-Federation/core) | The open-core server: local mode for Claude Code, self-hosting with OAuth, the review and spaces pages | Apache-2.0 |
 
 ## Status
 
-Early stage — validating the concept. Join the waitlist at **[contextfederation.dev](https://contextfederation.dev)**.
+Early pilot. The hosted service runs at [app.contextfederation.dev](https://app.contextfederation.dev) for invited testers, and the spec is a 0.2 draft. Join the waitlist at [contextfederation.dev](https://contextfederation.dev).
 
-## Links
+## Get in touch
 
-- 🌐 [Website](https://contextfederation.dev)
-- 🐦 [Twitter/X](https://x.com/ctxfed)
+[contact@contextfederation.dev](mailto:contact@contextfederation.dev)
